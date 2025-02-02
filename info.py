@@ -122,7 +122,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ttps://Linkspay.in')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://Linkspay.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '4eb4c465c67b29ff5ea7478bf729fd67671b05be')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/tokenprocess_video/4') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
